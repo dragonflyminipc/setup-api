@@ -95,5 +95,11 @@ sudo systemctl enable setup_api
 sudo systemctl status setup_api
 ```
 
+```
+TEST
+IP:8866/api/redocs
+IP:8866/api/wifi/list
+```
+
 After the last command you should see "Active: active (running)" in green. You might need to press Ctrl+C if the command line is unavailable.
 
