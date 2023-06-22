@@ -72,6 +72,15 @@ RestartSec=10s
 WantedBy=multi-user.target
 ```
 
+```
+grep -r "mac_address" service
+```
+
+```
+nano config.py
+debug = True
+```
+
 Run:
 
 ```
