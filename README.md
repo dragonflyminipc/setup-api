@@ -9,7 +9,7 @@ cd /root/
 ```
 
 ```
-git clone https://github.com/Darky2020/setup-api.git
+git clone https://github.com/dragonflyminipc/setup-api.git
 ```
 
 ```
