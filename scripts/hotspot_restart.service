@@ -1,0 +1,10 @@
+[Unit]
+Description=Restart hotspot.service after suspend
+After=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/bin/systemctl --no-block restart hotspot.service
+
+[Install]
+WantedBy=suspend.target

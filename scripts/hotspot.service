@@ -1,0 +1,11 @@
+[Unit]
+Description=Hotspot startup service
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/start_hotspot.sh
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
